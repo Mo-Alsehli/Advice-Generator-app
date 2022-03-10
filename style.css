@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Manrope, sans-serif;
+}
+
+h1 {
+  font-size: 20px;
+  color: hsl(193, 38%, 86%);
+}
+.container {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5.5rem;
+}
+
+.advice-status {
+  width: 90%;
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(218, 23%, 16%);
+  border-radius: 5px;
+}
+
+.advice-container {
+  width: 32%;
+  height: 40%;
+  background-color: hsl(217, 19%, 24%);
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: 9px;
+  position: relative;
+}
+
+.advice-title {
+  font-size: 0.9rem;
+  font-weight: 300;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  color: hsl(150, 100%, 66%);
+}
+
+.advice-content {
+  font-size: 1.25rem;
+  color: hsl(193, 38%, 86%);
+  letter-spacing: 0.07rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.pattern-wrapper {
+  margin-bottom: 2rem;
+}
+
+.dice-btn {
+  position: absolute;
+  transform: translate(-50%, 50%);
+  bottom: 0;
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 0.8rem;
+  border: transparent;
+  text-align: center;
+  color: #000;
+  background-color: hsl(150, 100%, 66%);
+  opacity: 1;
+  z-index: 2;
+  font-size: 1rem;
+}
+
+.dice-btn:hover {
+  box-shadow: 0 0 30px hsl(150, 100%, 66%);
+}
+
+.dice-svg {
+  object-fit: cover;
+  font-size: 12px;
+}
